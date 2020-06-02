@@ -53,3 +53,10 @@ The followings are the result from each classifier.
 
 #### SGD Classifier
 ![SGD](./images/sgd.png)
+
+### Read more
+If you would like to read more about these classifiers, it will be helpful for you to read these links below .   
+[SVM](https://en.wikipedia.org/wiki/Support_vector_machine)   
+[Pegasos](https://www.cs.huji.ac.il/~shais/papers/ShalevSiSrCo10.pdf)   
+[SGD](https://en.wikipedia.org/wiki/Stochastic_gradient_descent)   
+[SDCA](http://www.jmlr.org/papers/volume14/shalev-shwartz13a/shalev-shwartz13a.pdf)
