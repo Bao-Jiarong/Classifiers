@@ -40,19 +40,19 @@ We use matplotlib to draw the points X and their labels Y.
 The followings are the result from each classifier.  
 
 #### SVM: Pegasos_V1 Classifier
-![Pegasos_V1](./images/pegasos_v1.png)
+<img src="./images/pegasos_v1.png" width="300" height="300" />
 
 #### SVM: Pegasos_V2 Classifier
-![Pegasos_V2](./images/pegasos_v2.png)
+<img src="./images/pegasos_v2.png" width="300" height="300" />
 
 #### Perceptron Classifier
-![Perceptron](./images/perceptron.png)
+<img src="./images/perceptron.png" width="300" height="300" />
 
 #### SDCA Classifier
-![SDCA](./images/sdca.png)
+<img src="./images/sdca.png" width="300" height="300" />
 
 #### SGD Classifier
-![SGD](./images/sgd.png)
+<img src="./images/sgd.png" width="300" height="300" />
 
 ### Read more
 If you would like to read more about these classifiers, it will be helpful for you to read these links below .   
