@@ -27,10 +27,10 @@ X = np.array([[3,1],[4,1],[4,2],[5,3],[5,4],[6,1],[6,3],[7,2],\
 Y = np.array([-1,-1,-1,-1,-1,-1,-1,-1,\
               +1,+1,+1,+1,+1,+1,+1,+1])
 
-cs = classifier.CLASSIFIER(x = X,
-                           y = Y,
-                           T = 10000,
-                           lr_rate=1e-3)
+cs = classifier.CLASSIFIER(x = X,        # inputs
+                           y = Y,        # labels
+                           T = 10000,    # iterations
+                           lr_rate=1e-3) # learning rate
 w = cs.Perceptron()
 a = cs.plot(w)
 ```
@@ -55,7 +55,7 @@ The followings are the result from each classifier.
 <img src="./images/sgd.png" width="300" height="300" />
 
 ### Read more
-If you would like to read more about these classifiers, it will be helpful for you to read these links below .   
+If you would like to read more about these classifiers, it will be helpful for you to read the following links:   
 [SVM](https://en.wikipedia.org/wiki/Support_vector_machine)   
 [Pegasos](https://www.cs.huji.ac.il/~shais/papers/ShalevSiSrCo10.pdf)   
 [SGD](https://en.wikipedia.org/wiki/Stochastic_gradient_descent)   
